@@ -1,0 +1,248 @@
+body{
+    background-color: rgb(24, 24, 24);
+}
+/*------------------*/
+.popup {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.popupconteudo {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    z-index: 1001;
+    position: relative;
+    border-radius: 2rem;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*------------------*/
+article{
+    display: flex;
+    justify-content: center;
+}
+#blue{
+    width: 55rem;
+    position:absolute;
+    border: 0.7rem solid white;
+    border-radius: 28rem;
+}
+/*#blueposition{
+    margin-right: 40rem;
+}*/
+
+#asdf{
+    width: 50%;
+    color: rgba(0, 255, 255, 0);
+    opacity: 0;
+}
+
+.red{
+    width: 10rem;
+    position: relative;    
+}
+
+#golg{
+    width: 12rem;
+    position: relative;    
+}
+
+#mito{
+    width: 9rem;
+    position: relative;    
+}
+
+.tra{
+    width: 10rem;
+    position: relative;
+    opacity: 0;
+}
+
+.red:hover, #yellow:hover, .rib:hover, #ret:hover, #rib:hover, #golg:hover, #mito:hover{
+    border: 0.2rem solid white;
+    border-radius: 3rem;
+}
+
+#green:hover{
+    border: 0.2rem solid white;
+    border-radius: 3rem;
+}
+
+section{
+    border: 0.2rem solid rgba(255, 0, 0, 0);
+    top: 0;
+}
+
+#green{
+    width: 15rem;
+    position: relative;
+    margin-top: 3rem;
+}
+
+#ret{
+    width: 15rem;
+    position: relative;
+}
+
+.rib{
+    width: 8rem;
+    position: relative;
+    margin-top: 5rem;
+}
+
+#plusbutton{
+    width: 25%;
+    margin-top: 50rem;
+    display: block;
+    margin: 0 auto;
+    
+    text-align: center;
+}
+#plusbutton:hover{
+    width: 26%;
+}
+
+/*Responsividade*/
+
+/*@media (max-width: 1280px) {
+    #blue{
+        width: 55rem;
+        
+    }
+}*/
+
+
+@media (max-width: 760px) {
+    #blue{
+        width: 27.5rem;
+    }
+    
+    /*#blueposition{
+        margin-right: 29rem;
+    }*/
+    #asdf{
+        width: 25%;
+    }
+    
+    .red{
+        width: 5rem;
+    }
+    
+    .tra{
+        width: 5rem;
+    }
+    
+    #green{
+        width: 7.5rem;
+        margin-top: 1.5rem;
+    }
+
+    #golg{
+        width: 6rem; 
+    }
+    
+    #mito{
+        width: 4.5rem;
+    }
+    
+    #ret{
+        width: 7.5rem;
+    }
+    
+    .rib{
+        width: 4rem;
+        margin-top: 2.5rem;
+    }
+    .red:hover, #yellow:hover, .rib:hover, #ret:hover, #rib:hover{
+        border: 0.2rem solid white;
+        border-radius: 1.5rem;
+    }
+}
+
+/*@media (max-width: 496px) {
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-right: 3rem;
+    }
+    
+    li{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        justify-content: space-around;
+    }
+    
+    #titulo_principal{
+        width: 20rem;
+    }
+    .img_perfil{
+        width: 6rem;
+    }
+    .img_perfil:hover{
+        border: 5px solid;
+        border-radius: 20px 20px 20px 20px;
+        border-color: white;
+    }
+    section{
+        width: 50%;
+    }
+}
+
+@media (max-width: 359px) {
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    li{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        justify-content: space-around;
+    }
+    
+    #titulo_principal{
+        width: 20rem;
+    }
+    .img_perfil{
+        width: 7rem;
+    }
+    .img_perfil:hover{
+        border: 5px solid;
+        border-radius: 20px 20px 20px 20px;
+        border-color: white;
+    }
+    section{
+        width: 50%;
+    }
+}*/
